@@ -1,0 +1,14 @@
+:root {
+  --f12: 12px;
+  --f11: 11px;
+  --f10: 10px;
+  --f9: 9px;
+  --f8: 8px;
+  --black: #000;
+  --white: #fff;
+  --primary-blue: #1597e5;
+  --secondary-blue: #193498;
+  --background-gray: #eff1ef;
+  --gray-button: #5f7161;
+  --text-gray: rgba(0, 0, 0, 0.5);
+}

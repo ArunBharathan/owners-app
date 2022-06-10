@@ -1,0 +1,60 @@
+.hostel-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  position: relative;
+  .background-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 288px;
+    background-color: #252525;
+    overflow: hidden;
+  }
+  .hostel-details {
+    display: flex;
+    justify-content: space-between;
+    background: var(--background-gray);
+    padding: 16px;
+    .name-address {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: var(--f12);
+        color: --var(--black);
+        font-weight: 700;
+      }
+      p {
+        font-size: var(--f10);
+        color: var(--text-gray);
+      }
+    }
+    .desc {
+      display: flex;
+      flex-direction: column;
+      font-size: --f10;
+      font-weight: 600;
+      p {
+        letter-spacing: 0.2em;
+        margin: 0;
+      }
+    }
+  }
+  .room-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .label {
+      font-size: var(--f10);
+      font-weight: 600;
+      color: var(--text-gray);
+    }
+    .value {
+      font-size: var(--f10);
+      font-weight: 600;
+      color: var(--black);
+    }
+  }
+}
