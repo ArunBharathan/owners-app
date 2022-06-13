@@ -1,0 +1,47 @@
+.amenities-container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  .amenity {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    label {
+      font-size: var(--f10);
+      color: var(--text-gray);
+      margin-top: 10px;
+    }
+  }
+}
+.rent-holder {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  .rent {
+    display: flex;
+    font-size: var(--f10);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: var(--primary-blue);    
+    .price {
+      margin-left: auto;
+      font-size: var(--f12);
+      color: var(--primary-blue);
+      font-weight: 700;
+    }
+    &.border-1 {
+      border: 1px solid var(--primary-blue);
+      border-radius: 9px;
+    }
+    &.border-2 {
+      border-bottom: 1px solid var(--border-gray);
+    }
+  }
+}

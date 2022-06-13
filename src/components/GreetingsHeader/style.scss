@@ -1,0 +1,21 @@
+.greetings-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: var(--f16);
+        color: var(--black);
+    }
+    .help-btn {
+        border-radius: 35px;
+        width: auto;
+        padding: 6px;
+        text-transform: uppercase;
+        font-size: var(--f10);
+        background: var(--white);
+    }
+}

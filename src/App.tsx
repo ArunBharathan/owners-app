@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { HostelPage } from "./containers/HostelPage/Loadable";
+import { RoomPage } from "./containers/RoomPage/Loadable";
 import { GlobalStyles } from "./styles/global-styles";
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HostelPage />} />
+          <Route path="/" element={<Navigate to="/hostel/12312" />} />
+          <Route path="/hostel/:id" element={<HostelPage />} />
+          <Route path="/hostel/room" element={<RoomPage />} />
         </Routes>
         <GlobalStyles />
       </BrowserRouter>

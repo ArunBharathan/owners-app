@@ -5,6 +5,16 @@
   height: auto;
   overflow-x: hidden;
   position: relative;
+  .room-name {
+    width: 100%;
+    padding: 8px 15px;
+    text-align: left;
+    background: rgba(25, 52, 152, 0.7);
+    font-size: var(--f12);
+    font-weight: 600;
+    box-sizing: border-box;
+    color: var(--white);
+  }
   .background-image {
     display: flex;
     position: relative;

@@ -111,6 +111,25 @@ body {
   margin-left: 3rem;
 }
 
+.mr-0 {
+  margin-right: 0 !important;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-3 {
+  margin-right: 1rem;
+}
+.mr-4 {
+  margin-right: 1.5rem;
+}
+.mr-5 {
+  margin-right: 3rem;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -141,6 +160,11 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
+  h2 {
+    font-size: var(--f12);
+    font-weight: 700;
+    color: var(--black);
+  }
 }
 .block {
   display: flex;

@@ -4,10 +4,10 @@ const LazyComponent = lazy(() =>
   import("./index").then((module) => ({ default: module.HostelHeader }))
 );
 
-export const HostelHeader = (props: any) => {
+export const HostelHeader = (props: React.ComponentProps<any>) => {
   return (
     <Suspense fallback={<p>Loading ...</p>}>
-      <LazyComponent {...props} />
+      <LazyComponent {...props}/>
     </Suspense>
   );
 };
