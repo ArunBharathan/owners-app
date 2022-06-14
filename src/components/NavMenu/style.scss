@@ -1,0 +1,23 @@
+.footer-menu {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--white);
+    .menu-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        label{
+            font-size: var(--f9);
+            color: var(--gray-button);
+        }
+    }
+}

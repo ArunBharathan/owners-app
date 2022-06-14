@@ -50,7 +50,7 @@ export const RoomLists = (props: Props) => {
   const navigate = useNavigate();
   return (
     <div className="room-list-container">
-      <div className="d-flex">
+      <div className="d-flex justify-space-between">
         <h5>Room details</h5>
         <button>Edit</button>
       </div>

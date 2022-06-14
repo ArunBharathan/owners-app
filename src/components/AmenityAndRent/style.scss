@@ -6,6 +6,7 @@
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: scroll;
+  background: var(--background-gray);
   .amenity {
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
+  background: var(--background-gray);
   .rent {
     display: flex;
     font-size: var(--f10);
