@@ -12,10 +12,13 @@
   --white: #fff;
   --primary-blue: #1597e5;
   --secondary-blue: #193498;
-  --ternary-blue:#3D56B2;
+  --ternary-blue: #3d56b2;
   --background-gray: #eff1ef;
   --gray-button: #5f7161;
   --text-gray: rgba(0, 0, 0, 0.5);
   --text-green: #73d13d;
-  --border-gray:#E0E0E0;
+  --border-gray: #e0e0e0;
+  --available: #81b214;
+  --partial-available: #7f8d81;
+  --full: #fa541c;
 }

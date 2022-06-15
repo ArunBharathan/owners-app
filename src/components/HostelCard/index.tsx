@@ -35,7 +35,7 @@ export const HostelCard = ({ hostel }: Props) => {
         </div>
       </div>
       <div
-        onClick={() => navigate(routes.toHostel(`${hostel.name}`))}
+        onClick={() => navigate(routes.toHostel2(`${hostel.name}`))}
         className="hostel-details"
       >
         <div className="name-address">

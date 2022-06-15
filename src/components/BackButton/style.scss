@@ -1,0 +1,40 @@
+.back-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 64px;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  background: var(--white);
+  position: relative;
+  left: 0;
+  top: 0;
+  .icon-black {
+    fill: var(--black);
+    color: var(--black);
+    stroke: var(--black);
+    margin: auto 0;
+  }
+  .icon-white {
+    fill: var(--white);
+    color: var(--white);
+    stroke: var(--white);
+    margin: auto 0;
+  }
+  .title-and-label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--black);
+    margin: auto 15px;
+    h2 {
+      font-size: var(--f12);
+      margin: 0;
+    }
+    label {
+      font-weight: 600;
+      font-size: var(--f10);
+      color: var(--gray-button);
+    }
+  }
+}
