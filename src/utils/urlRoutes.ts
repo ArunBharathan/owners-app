@@ -7,4 +7,6 @@ export const routes = {
     entityId && roomId
       ? `/dashboard/hostels/${entityId}/${roomId}`
       : "/dashboard/hostels/:entityId/:roomId",
+  toTenantPage: '/dashboard/tenants',
+  toRequestPage: '/dashboard/requests'
 };

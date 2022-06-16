@@ -5,7 +5,9 @@ import { HostelDetailPage } from "./containers/HostelDetailPage/Loadable";
 import { HostelListPage } from "./containers/HostelListPage/Loadable";
 import { HostelPage } from "./containers/HostelPage/Loadable";
 import { ProtectedRoute } from "./containers/ProtectedRoute/Loadable";
+import { RequestPage } from "./containers/RequestPage/Loadable";
 import { RoomPage } from "./containers/RoomPage/Loadable";
+import { TenantPage } from "./containers/TenantPage/Loadable";
 import { GlobalStyles } from "./styles/global-styles";
 import { routes } from "./utils/urlRoutes";
 
@@ -20,6 +22,8 @@ function App() {
             <Route path={routes.toHostel2()} element={<HostelDetailPage />} />
             <Route path={routes.toHostel()} element={<HostelPage />} />
             <Route path={routes.toRoom()} element={<RoomPage />} />
+            <Route path={routes.toTenantPage} element={<TenantPage />} />
+            <Route path={routes.toRequestPage} element={<RequestPage />} />
           </Route>
         </Routes>
         <GlobalStyles />
